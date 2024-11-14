@@ -134,7 +134,7 @@ contract ScrollSepoliaAuction {
 
 
     function mostrarGanador() external view returns (address, uint256) {
-        require(ended, "Auction has not ended"); // eglish
+        require(ended, "Auction has not ended"); // english
         return (highestBidder, highestBid);
     }
 
